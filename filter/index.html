@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>The Filter Method</h1>
+    <p>
+      Creates a new array with all the elements that pass the test implemented
+      by the provided function.
+    </p>
+    <div class="code-container">
+      <code> const nums = [9, 8, 7, 6, 5, 4, 3, 2, 1,]; </code><br />
+      <code> const odds = nums.filter(n => {<br>
+            return n % 2 === 1;<br>
+        })<br>
+        // Create a new array called "odds" by taking each thing in "nums" and returning the ones that meet the criteria, which in this case is: "Is the remainder of the number divided by 2 equal to one (i.e., "Is that shit an odd number?")"
+    </code>
+    </div>
+  </body>
+</html>
