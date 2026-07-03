@@ -14,3 +14,9 @@ const someLastLetter = someWords.some(word => {
     let last_letter = word[word.length - 1];
     return last_letter === 't';
 })
+
+function allEvens(numbers) {
+    return numbers.every(num => {
+        return num % 2 === 0;
+    });
+}
