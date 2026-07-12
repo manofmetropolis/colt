@@ -143,6 +143,10 @@ const madonnaAlbums = [
 //   madonnaAlbums.filter((album) => album.score > 90)
 // madonnaAlbums.filter(({ score }) => score > 90);
 
+// madonnaAlbums.map(album => {
+//     return `${album.title} (${album.year}) is rated ${album.score}.`
+// })
+//is the same as:
 madonnaAlbums.map(({ title, year, score }) => {
     return `${title} (${year}) is rated ${score}.`
 })
