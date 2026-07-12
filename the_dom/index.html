@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World of the DOM</title>
+</head>
+
+<body>
+    <h1>The World of the DOM</h1>
+    <div class="byTagName">
+        <p>It does not return an array. It returns elements (e)</p>
+        <img class="reallyGood" src="https://upload.wikimedia.org/wikipedia/en/2/27/Music_Madonna.png" alt="Music" width="200" />
+
+        <img class="reallyGood" id="rayOfLight" src="https://upload.wikimedia.org/wikipedia/en/d/dd/Ray_of_Light_Madonna.png" alt="Ray of Light"
+            width="200" />
+
+        <img class="reallyGood" src="https://upload.wikimedia.org/wikipedia/en/0/08/Madonna_-_Like_a_Prayer_album.png" alt="Like a Prayer"
+            width="200" />
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/e/e0/Madonna_-_True_Blue_%28album_cover%29.png"
+            alt="True Blue" width="200" />
+    </div>
+    <div class="byClassName">
+        <p>You can select multiple elements by their className.</p>
+        <p>e.g., <code>const reallyGoodAlbums = document.getElementsByClassName('reallyGood')</code></p>
+    </div>
+    <div id="byId">
+        <p>And of coruse, you can select an element by its ID.</p>
+        <p>e.g., <code>const madonna = document.getElementById('rayOfLight')</code></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
